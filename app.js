@@ -22,13 +22,13 @@ app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
   // console.log(res);
-  const user = new User ({
-    handle: "jim",
-    email: "jim@jim.jim",
-    password: "jimisgreat123"
-  });
-  user.save();
-  console.log(user);
+  // const user = new User ({
+  //   handle: "jim",
+  //   email: "jim@jim.jim",
+  //   password: "jimisgreat123"
+  // });
+  // user.save();
+  // console.log(user);
   res.send("Hello world!");
 });
 
